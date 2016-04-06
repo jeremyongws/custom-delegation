@@ -57,7 +57,7 @@
 	} else if ([[button restorationIdentifier] isEqualToString:@"blue"]){
 		picture.frameColor = [UIColor blueColor];
 	} else if ([[button restorationIdentifier] isEqualToString:@"green"]){
-		picture.frameColor = [UIColor blueColor];
+		picture.frameColor = [UIColor greenColor];
 	}
 	[[[self.view.subviews lastObject] viewWithTag:123] removeFromSuperview];
 	[self.collectionView reloadData];

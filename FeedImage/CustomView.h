@@ -11,7 +11,7 @@
 @protocol CustomViewDelegate <NSObject>
 
 @required
-- (void) onColourButtonPressed:(UIButton *)button ;
+- (void)onColourButtonPressed:(UIButton *)button;
 - (void)onGoButtonPressed:(UIButton *)sender withRedSliderValue:(float)redSliderValue withGreenSliderValue:(float)greenSliderValue withBlueSliderValue:(float)blueSliderValue;
 
 @end
